@@ -1,1 +1,22 @@
 theme: jekyll-theme-cayman
+title: My Work Space
+email: badary.ahmad@gmail.com
+description: "A place where I write about science and my work"
+github_username:  AhmedBadary
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # can be pages, posts, or drafts
+    values:
+      layout: "post"
+      author: Ahmad Badary
+      type: post
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "books"
+    values:
+      layout: "post"
+      author: Ahmad Badary
